@@ -1,0 +1,1034 @@
+@font-face {
+  font-family: "NouvelleGroteskSTD-Black";
+  src: url("https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/assets/external/fonts/xpr/NNNouvelleGroteskSTD-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NouvelleGroteskSTD-Bold";
+  src: url("https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/assets/external/fonts/xpr/NNNouvelleGroteskSTD-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NouvelleGroteskSTD-Normal";
+  src: url("https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/assets/external/fonts/xpr/NNNouvelleGroteskSTD-Normal.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+/* line 23, ../sass/xpr-main.scss */
+:root {
+  --xpr-font: "NouvelleGrotesk-Normal", "Mier B", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --xpr-font-bold: "NouvelleGroteskSTD-Bold", "Mier B", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --xpr-font-black: "NouvelleGroteskSTD-Black", "Mier B", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --xpr-deep-space: #220021;
+  --xpr-blue: #6923F4;
+  --xpr-orange: #F44E27;
+  --xpr-white: #FFF7F3;
+  --xpr-pink: #FF8DF4;
+  --xpr-green: #74FBD0;
+}
+
+/* line 35, ../sass/xpr-main.scss */
+body.xpr-main {
+  color: var(--xpr-deep-space);
+  font-family: var(--xpr-font) !important;
+  background-color: var(--xpr-white);
+}
+/* line 42, ../sass/xpr-main.scss */
+body.xpr-main.pm-old.trans-container .cd-morph-dropdown {
+  padding: 20px 0;
+}
+/* line 51, ../sass/xpr-main.scss */
+body.xpr-main.xpr-error #home-section section#section-hero {
+  background: var(--xpr-white);
+  background: -moz-linear-gradient(160deg, var(--xpr-white) 0, var(--xpr-white) 31%, var(--xpr-white) 54%, var(--xpr-white) 100%);
+  background: -webkit-linear-gradient(160deg, var(--xpr-white), var(--xpr-white) 31%, var(--xpr-white) 54%, var(--xpr-white));
+  background: linear-gradient(160deg, var(--xpr-white), var(--xpr-white) 31%, var(--xpr-white) 54%, var(--xpr-white));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--xpr-white),endColorstr=var(--xpr-white),GradientType=1);
+  color: var(--xpr-deep-space);
+}
+/* line 59, ../sass/xpr-main.scss */
+body.xpr-main.xpr-error #home-section section#section-hero h1 {
+  color: var(--xpr-deep-space);
+}
+/* line 63, ../sass/xpr-main.scss */
+body.xpr-main.xpr-error #home-section section#section-hero #glb-bnr-strp-1 {
+  display: none;
+}
+/* line 70, ../sass/xpr-main.scss */
+body.xpr-main .region-switch {
+  display: none !important;
+}
+/* line 73, ../sass/xpr-main.scss */
+body.xpr-main .blue-horizon {
+  background-color: var(--xpr-deep-space);
+  background: var(--xpr-deep-space);
+  background: -moz-linear-gradient(160deg, var(--xpr-deep-space) 0, var(--xpr-deep-space) 31%, var(--xpr-deep-space) 54%, var(--xpr-deep-space) 100%);
+  background: -webkit-linear-gradient(160deg, var(--xpr-deep-space), var(--xpr-deep-space) 31%, var(--xpr-deep-space) 54%, var(--xpr-deep-space));
+  background: linear-gradient(160deg, var(--xpr-deep-space), var(--xpr-deep-space) 31%, var(--xpr-deep-space) 54%, var(--xpr-deep-space));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--xpr-deep-space),endColorstr=var(--xpr-deep-space),GradientType=1);
+}
+/* line 84, ../sass/xpr-main.scss */
+body.xpr-main .column-3-center.bg-light-grey dl i {
+  color: var(--xpr-blue);
+}
+/* line 90, ../sass/xpr-main.scss */
+body.xpr-main span, body.xpr-main p {
+  font-family: var(--xpr-font) !important;
+}
+/* line 94, ../sass/xpr-main.scss */
+body.xpr-main dd {
+  color: var(--xpr-deep-space);
+}
+/* line 99, ../sass/xpr-main.scss */
+body.xpr-main h1.case_study_h1 {
+  font-size: 30px !important;
+}
+/* line 102, ../sass/xpr-main.scss */
+body.xpr-main h1.case_study_h1 span.bold {
+  font-size: 30px !important;
+}
+/* line 112, ../sass/xpr-main.scss */
+body.xpr-main ul.xpr-social-media-links li {
+  list-style: none;
+}
+/* line 117, ../sass/xpr-main.scss */
+body.xpr-main ul.case_list_2 li {
+  font-family: var(--xpr-font);
+  letter-spacing: normal;
+}
+/* line 121, ../sass/xpr-main.scss */
+body.xpr-main ul.case_list_2 li span:before {
+  content: "";
+  background-image: url(https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/images/internal/icons/svg/xplor_icon_tick_neptune-blue.svg);
+  background-size: cover;
+  color: initial;
+  font-family: initial;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+/* line 133, ../sass/xpr-main.scss */
+body.xpr-main ul.case_list_2 li i {
+  display: none;
+}
+/* line 140, ../sass/xpr-main.scss */
+body.xpr-main ul.feature-checklist li:before, body.xpr-main ul.case_list_2 li:before {
+  content: "";
+  background-image: url(https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/images/internal/icons/svg/xplor_icon_tick_neptune-blue.svg);
+  background-size: cover;
+  color: initial;
+  font-family: initial;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+/* line 154, ../sass/xpr-main.scss */
+body.xpr-main a {
+  color: var(--xpr-blue);
+}
+/* line 157, ../sass/xpr-main.scss */
+body.xpr-main a:hover {
+  color: var(--xpr-blue);
+}
+/* line 161, ../sass/xpr-main.scss */
+body.xpr-main a.btn-primary-green, body.xpr-main a .btn-primary {
+  background-color: var(--xpr-blue);
+  border-color: var(--xpr-blue);
+  color: #FFF !important;
+}
+/* line 167, ../sass/xpr-main.scss */
+body.xpr-main a.link-move {
+  color: var(--xpr-blue);
+}
+/* line 169, ../sass/xpr-main.scss */
+body.xpr-main a.link-move:after {
+  border-color: var(--xpr-blue);
+}
+/* line 172, ../sass/xpr-main.scss */
+body.xpr-main a.link-move:hover {
+  color: var(--xpr-blue);
+}
+/* line 178, ../sass/xpr-main.scss */
+body.xpr-main a.cta_button.request-cta, body.xpr-main a#cta_button_484017_f1b05e8c-d6e3-437a-8acd-c2d21c0bac95.request-cta {
+  background-color: var(--xpr-blue) !important;
+  font-family: var(--xpr-font) !important;
+  border-radius: 20px;
+}
+/* line 188, ../sass/xpr-main.scss */
+body.xpr-main section#section-company-stats .col-md-4 > div {
+  background-color: #FFF;
+}
+/* line 191, ../sass/xpr-main.scss */
+body.xpr-main section#section-company-stats .col-md-4 > div h3 {
+  color: var(--xpr-orange);
+}
+/* line 199, ../sass/xpr-main.scss */
+body.xpr-main .description a:not(.btn) {
+  color: var(--xpr-blue);
+}
+/* line 202, ../sass/xpr-main.scss */
+body.xpr-main .description a:not(.btn):hover {
+  color: var(--xpr-blue);
+}
+/* line 208, ../sass/xpr-main.scss */
+body.xpr-main .contact-list a {
+  color: #FFF !important;
+}
+/* line 211, ../sass/xpr-main.scss */
+body.xpr-main .contact-list a:hover {
+  color: #FFF !important;
+}
+/* line 216, ../sass/xpr-main.scss */
+body.xpr-main .bg-light-grey {
+  background-color: var(--xpr-white);
+}
+/* line 220, ../sass/xpr-main.scss */
+body.xpr-main .link-move:after {
+  border-color: var(--xpr-deep-space);
+}
+/* line 224, ../sass/xpr-main.scss */
+body.xpr-main .btn-primary {
+  background-color: var(--xpr-blue);
+  border-color: var(--xpr-blue);
+  color: #FFF !important;
+}
+/* line 232, ../sass/xpr-main.scss */
+body.xpr-main .topic-container .col-md-4 > div {
+  background-color: var(--xpr-white);
+}
+/* line 234, ../sass/xpr-main.scss */
+body.xpr-main .topic-container .col-md-4 > div .info-container {
+  background-color: var(--xpr-white);
+}
+/* line 239, ../sass/xpr-main.scss */
+body.xpr-main .topic-container h6 {
+  color: var(--xpr-deep-space);
+}
+/* line 242, ../sass/xpr-main.scss */
+body.xpr-main .topic-container a {
+  color: var(--xpr-blue);
+}
+/* line 246, ../sass/xpr-main.scss */
+body.xpr-main .topic-container .info-container a {
+  color: var(--xpr-blue);
+}
+/* line 248, ../sass/xpr-main.scss */
+body.xpr-main .topic-container .info-container a:after {
+  border-color: var(--xpr-blue);
+}
+/* line 252, ../sass/xpr-main.scss */
+body.xpr-main .topic-container .info-container a i {
+  color: var(--xpr-blue);
+}
+/* line 260, ../sass/xpr-main.scss */
+body.xpr-main .box-slider .img-container {
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+/* line 264, ../sass/xpr-main.scss */
+body.xpr-main .box-slider .info-container {
+  border-radius: 0 0 5px 5px;
+}
+/* line 272, ../sass/xpr-main.scss */
+body.xpr-main .slick-dots li.slick-active button:before {
+  color: var(--xpr-deep-space);
+}
+/* line 278, ../sass/xpr-main.scss */
+body.xpr-main .slick-dots li button:before {
+  color: #000;
+}
+/* line 285, ../sass/xpr-main.scss */
+body.xpr-main .section section {
+  padding: 100px 0;
+}
+/* line 288, ../sass/xpr-main.scss */
+body.xpr-main .section section h3 {
+  color: var(--xpr-blue);
+}
+/* line 291, ../sass/xpr-main.scss */
+body.xpr-main .section section .glb-bnr-strp {
+  background-color: var(--xpr-deep-space);
+}
+/* line 295, ../sass/xpr-main.scss */
+body.xpr-main .section section.bg-grey {
+  background-color: var(--xpr-deep-space);
+  color: #FFF;
+  padding: 100px 0;
+}
+/* line 304, ../sass/xpr-main.scss */
+body.xpr-main #section-email-subscribe.bg-light-grey {
+  background-color: var(--xpr-deep-space);
+  color: #FFF;
+  padding-top: 100px;
+}
+/* line 309, ../sass/xpr-main.scss */
+body.xpr-main #section-email-subscribe.bg-light-grey a {
+  color: #FFF;
+}
+/* line 315, ../sass/xpr-main.scss */
+body.xpr-main #section-email-subscribe.bg-light-grey .hs-submit input.hs-button {
+  background-color: var(--xpr-pink);
+  border-color: var(--xpr-pink);
+}
+/* line 323, ../sass/xpr-main.scss */
+body.xpr-main #section-email-subscribe.bg-light-grey .form-container .footnote {
+  color: #FFF;
+}
+/* line 332, ../sass/xpr-main.scss */
+body.xpr-main #section-search section#section-hero, body.xpr-main #section-resources section#section-hero {
+  height: 400px !important;
+}
+/* line 335, ../sass/xpr-main.scss */
+body.xpr-main #section-search section#section-hero .search-container, body.xpr-main #section-resources section#section-hero .search-container {
+  display: none;
+}
+/* line 345, ../sass/xpr-main.scss */
+body.xpr-main #section-support section.contact-info-boxes .support-info .support-title {
+  color: var(--xpr-deep-space);
+}
+/* line 348, ../sass/xpr-main.scss */
+body.xpr-main #section-support section.contact-info-boxes .support-info .support-title a {
+  color: var(--xpr-orange);
+}
+/* line 351, ../sass/xpr-main.scss */
+body.xpr-main #section-support section.contact-info-boxes .support-info .support-title a:hover {
+  color: var(--xpr-orange);
+}
+/* line 364, ../sass/xpr-main.scss */
+body.xpr-main #home-demo.section-demo input[type=submit] {
+  border-top: 1px solid var(--xpr-blue) !important;
+  border-right: 1px solid var(--xpr-blue) !important;
+  border-bottom: 1px solid var(--xpr-blue) !important;
+  background-color: var(--xpr-blue);
+  border-color: var(--xpr-blue);
+}
+/* line 371, ../sass/xpr-main.scss */
+body.xpr-main #home-demo.section-demo input[type=submit]:hover {
+  background-color: var(--xpr-blue);
+  border-color: var(--xpr-blue);
+}
+/* line 382, ../sass/xpr-main.scss */
+body.xpr-main #home-section section#section-hero {
+  background: var(--xpr-deep-space);
+  background: -moz-linear-gradient(160deg, var(--xpr-deep-space) 0, var(--xpr-deep-space) 31%, var(--xpr-deep-space) 54%, var(--xpr-deep-space) 100%);
+  background: -webkit-linear-gradient(160deg, var(--xpr-deep-space), var(--xpr-deep-space) 31%, var(--xpr-deep-space) 54%, var(--xpr-deep-space));
+  background: linear-gradient(160deg, var(--xpr-deep-space), var(--xpr-deep-space) 31%, var(--xpr-deep-space) 54%, var(--xpr-deep-space));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--xpr-deep-space),endColorstr=var(--xpr-deep-space),GradientType=1);
+}
+/* line 389, ../sass/xpr-main.scss */
+body.xpr-main #home-section section#section-hero .glb-bnr-strp-inr {
+  background-color: var(--xpr-deep-space);
+}
+/* line 399, ../sass/xpr-main.scss */
+body.xpr-main #home-section section#section-features-screenshot .nav a.nav-link.active i {
+  color: var(--xpr-deep-space);
+}
+/* line 403, ../sass/xpr-main.scss */
+body.xpr-main #home-section section#section-features-screenshot .nav a.nav-link.active span.title {
+  color: var(--xpr-deep-space);
+}
+/* line 407, ../sass/xpr-main.scss */
+body.xpr-main #home-section section#section-features-screenshot .nav a.nav-link.active span.description {
+  color: var(--xpr-deep-space);
+}
+/* line 421, ../sass/xpr-main.scss */
+body.xpr-main #section-features-testimonial .box-container .quote-container:before {
+  content: '';
+  background-image: url(https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/images/internal/icons/icon_xplor_quote.png);
+  background-size: cover;
+  color: initial;
+  font-family: initial;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+/* line 438, ../sass/xpr-main.scss */
+body.xpr-main .footer-container .section-demo input[type=email], body.xpr-main .footer-container .section-demo input[type=tel] {
+  border-radius: 5px !important;
+}
+/* line 445, ../sass/xpr-main.scss */
+body.xpr-main #footer-container {
+  background-color: #FFF;
+}
+/* line 449, ../sass/xpr-main.scss */
+body.xpr-main #footer-container .logo img {
+  filter: none;
+}
+/* line 454, ../sass/xpr-main.scss */
+body.xpr-main #footer-container h5, body.xpr-main #footer-container p.header {
+  color: var(--xpr-deep-space);
+  font-family: var(--xpr-font-bold);
+}
+/* line 460, ../sass/xpr-main.scss */
+body.xpr-main #footer-container .region-switch .region-switch-subtitle {
+  color: var(--xpr-font);
+}
+/* line 463, ../sass/xpr-main.scss */
+body.xpr-main #footer-container .region-switch .btn-transparent {
+  background-color: transparent !important;
+  border-color: var(--xpr-deep-space) !important;
+  color: var(--xpr-deep-space) !important;
+}
+/* line 471, ../sass/xpr-main.scss */
+body.xpr-main #footer-container ul li a {
+  color: var(--xpr-deep-space);
+}
+/* line 477, ../sass/xpr-main.scss */
+body.xpr-main #section-social-group {
+  background-color: #FFF;
+}
+/* line 480, ../sass/xpr-main.scss */
+body.xpr-main #section-social-group .footnote {
+  color: var(--xpr-blue);
+}
+/* line 485, ../sass/xpr-main.scss */
+body.xpr-main #section-social-group ul li a {
+  color: var(--xpr-blue);
+}
+/* line 493, ../sass/xpr-main.scss */
+body.xpr-main.trans-container .cd-morph-dropdown {
+  padding: 0;
+}
+/* line 496, ../sass/xpr-main.scss */
+body.xpr-main.trans-container .cd-morph-dropdown .navbar-brand img {
+  filter: none;
+}
+/* line 503, ../sass/xpr-main.scss */
+body.xpr-main.trans-container section#section-hero.xplor-hero {
+  padding: 150px 0 50px;
+}
+/* line 513, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown nav .container:before, body.xpr-main .cd-morph-dropdown nav .container:after {
+  content: initial;
+}
+@media only screen and (min-width: 1099px) {
+  /* line 512, ../sass/xpr-main.scss */
+  body.xpr-main .cd-morph-dropdown nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1099px) {
+  /* line 523, ../sass/xpr-main.scss */
+  body.xpr-main .cd-morph-dropdown nav .container .dropdown .section-nav-title {
+    margin-bottom: 0;
+  }
+}
+/* line 534, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li {
+  height: auto;
+  margin-bottom: 0px;
+  width: 90%;
+}
+/* line 539, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li.item-list {
+  padding: 5px;
+  width: 100%;
+}
+/* line 545, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li.item-list ul li:first-child {
+  display: none;
+}
+/* line 548, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li.item-list ul li i {
+  margin-left: 0;
+  margin-right: 30px;
+  width: 5px;
+}
+/* line 553, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li.item-list ul li i:not(.fa-angle-right) {
+  display: none;
+}
+/* line 564, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li.item-list:hover dt {
+  background-color: #edebeb;
+  border-radius: 5px;
+}
+/* line 568, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li.item-list:hover dt a.dropdown-item {
+  color: var(--xpr-blue);
+}
+/* line 580, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li.item-list:active dt {
+  background-color: var(--xpr-blue);
+}
+/* line 584, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li.item-list:active dt a.dropdown-item {
+  color: #FFF;
+}
+/* line 591, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li dl {
+  margin-bottom: 0;
+}
+/* line 594, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li dd {
+  padding: 0 0 0 5px;
+}
+/* line 597, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li dt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  width: 100%;
+}
+/* line 599, ../sass/xpr-main.scss */
+body.xpr-main .cd-morph-dropdown .gallery .content ul li dt a {
+  color: var(--xpr-font);
+}
+@media only screen and (min-width: 1099px) {
+  /* line 615, ../sass/xpr-main.scss */
+  body.xpr-main .cd-morph-dropdown .main-nav > ul.cw-navbar-lft {
+    float: none;
+    margin-left: 0;
+  }
+}
+/* line 625, ../sass/xpr-main.scss */
+body.xpr-main .section-hero {
+  background-size: cover !important;
+}
+/* line 631, ../sass/xpr-main.scss */
+body.xpr-main #section-organize #multi-carousel dl {
+  background-color: #FFF;
+}
+/* line 638, ../sass/xpr-main.scss */
+body.xpr-main .carousel-control-next i, body.xpr-main .carousel-control-prev i {
+  color: var(--xpr-blue);
+}
+/* line 647, ../sass/xpr-main.scss */
+body.xpr-main #section-policies section.section-sticky-accordion h2 span {
+  color: var(--xpr-deep-space) !important;
+}
+/* line 657, ../sass/xpr-main.scss */
+body.xpr-main #section-product section#section-hero {
+  background: var(--xpr-deep-space);
+  padding: 150px 0 50px;
+}
+/* line 665, ../sass/xpr-main.scss */
+body.xpr-main #section-company section#section-contact {
+  background: var(--xpr-deep-space) !important;
+}
+/* line 672, ../sass/xpr-main.scss */
+body.xpr-main #section-resources section#section-hero, body.xpr-main #section-hero section#section-hero {
+  background: var(--xpr-deep-space) !important;
+}
+/* line 676, ../sass/xpr-main.scss */
+body.xpr-main #section-resources section#section-hero .row.content-solo, body.xpr-main #section-hero section#section-hero .row.content-solo {
+  padding-top: 50px;
+}
+/* line 683, ../sass/xpr-main.scss */
+body.xpr-main #section-resources-nav {
+  padding: 50px 0 10px;
+}
+/* line 688, ../sass/xpr-main.scss */
+body.xpr-main #resources-nav .navbar-collapse .navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 696, ../sass/xpr-main.scss */
+body.xpr-main #resources-nav .navbar-collapse .navbar-nav li {
+  padding: 5px;
+  width: auto;
+  border: 1px solid var(--xpr-deep-space);
+  background-color: var(--xpr-white);
+  border-radius: 30px;
+}
+/* line 703, ../sass/xpr-main.scss */
+body.xpr-main #resources-nav .navbar-collapse .navbar-nav li.active {
+  background-color: #FFF;
+  border: 1px solid var(--xpr-blue);
+}
+/* line 707, ../sass/xpr-main.scss */
+body.xpr-main #resources-nav .navbar-collapse .navbar-nav li.active a {
+  color: var(--xpr-blue) !important;
+  font-weight: 700;
+}
+/* line 711, ../sass/xpr-main.scss */
+body.xpr-main #resources-nav .navbar-collapse .navbar-nav li.active a:after {
+  height: 0;
+  margin: 0;
+}
+/* line 718, ../sass/xpr-main.scss */
+body.xpr-main #resources-nav .navbar-collapse .navbar-nav li a i {
+  display: none;
+}
+/* line 728, ../sass/xpr-main.scss */
+body.xpr-main #topic-container .info-container a {
+  color: var(--xpr-blue);
+}
+/* line 731, ../sass/xpr-main.scss */
+body.xpr-main #topic-container .info-container a:after {
+  border-color: var(--xpr-blue);
+}
+/* line 739, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-hero {
+  padding: 150px 0 40px;
+}
+/* line 742, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-hero:before {
+  background: linear-gradient(90deg, var(--xpr-deep-space) 45%, rgba(0, 53, 148, 0) 65%, rgba(0, 212, 255, 0) 0%);
+}
+@media screen and (min-width: 1950px) {
+  /* line 747, ../sass/xpr-main.scss */
+  body.xpr-main #section-solutions section#section-hero:before {
+    background: linear-gradient(90deg, var(--xpr-deep-space) 55%, rgba(0, 53, 148, 0) 70%, rgba(0, 212, 255, 0) 0%) !important;
+  }
+}
+@media only screen and (max-width: 997px) {
+  /* line 754, ../sass/xpr-main.scss */
+  body.xpr-main #section-solutions section#section-hero:before {
+    background: var(--xpr-deep-space);
+  }
+  /* line 757, ../sass/xpr-main.scss */
+  body.xpr-main #section-solutions section#section-hero .description {
+    text-align: center;
+  }
+  /* line 761, ../sass/xpr-main.scss */
+  body.xpr-main #section-solutions section#section-hero p.header {
+    text-align: center;
+  }
+}
+/* line 768, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-features {
+  padding: 0px 0px 50px;
+}
+/* line 771, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-features .nav-carousel .nav-title {
+  background-color: #FFF;
+  padding: 20px 0;
+}
+/* line 775, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-features .nav-carousel .navbar {
+  background-color: #FFF !important;
+}
+/* line 778, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-features .nav-carousel .carousel-indicators {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+/* line 785, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-features .nav-carousel .carousel-indicators li {
+  padding: 5px;
+  width: auto;
+}
+/* line 788, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-features .nav-carousel .carousel-indicators li.active {
+  background-color: var(--xpr-white);
+  border: 1px solid var(--xpr-deep-space);
+  border-radius: 5px;
+}
+/* line 794, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-features .nav-carousel .carousel-indicators li.active a:after {
+  height: 0;
+  margin: 0;
+}
+/* line 801, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section#section-features .nav-carousel .carousel-indicators li a i {
+  display: none;
+}
+/* line 811, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section .btn-primary {
+  background-color: var(--xpr-blue);
+  border-color: var(--xpr-blue);
+  color: #FFF !important;
+}
+/* line 816, ../sass/xpr-main.scss */
+body.xpr-main #section-solutions section .btn-primary:hover {
+  background-color: var(--xpr-blue);
+  border-color: var(--xpr-blue);
+  color: #FFF !important;
+}
+/* line 824, ../sass/xpr-main.scss */
+body.xpr-main .section-landing-demo {
+  background-color: var(--xpr-orange);
+}
+/* line 827, ../sass/xpr-main.scss */
+body.xpr-main .section-demo {
+  background-color: var(--xpr-orange);
+}
+/* line 830, ../sass/xpr-main.scss */
+body.xpr-main .section-demo.blue-gradient {
+  background: linear-gradient(160deg, var(--xpr-orange), var(--xpr-orange) 31%, #f35430 54%, #fa6240) !important;
+}
+/* line 835, ../sass/xpr-main.scss */
+body.xpr-main .section-demo .input:before {
+  content: none !important;
+}
+/* line 839, ../sass/xpr-main.scss */
+body.xpr-main .section-demo input {
+  border-radius: 5px !important;
+  width: 100% !important;
+}
+/* line 843, ../sass/xpr-main.scss */
+body.xpr-main .section-demo input[type=submit] {
+  background-color: var(--xpr-blue);
+  border-color: var(--xpr-blue);
+  color: #FFF;
+  border-radius: 50px !important;
+}
+/* line 849, ../sass/xpr-main.scss */
+body.xpr-main .section-demo input[type=submit]:hover {
+  background-color: var(--xpr-blue) !important;
+  border-color: var(--xpr-blue) !important;
+  color: #FFF !important;
+}
+/* line 859, ../sass/xpr-main.scss */
+body.xpr-main #demo-footer-footnote a {
+  color: var(--xpr-blue);
+}
+/* line 862, ../sass/xpr-main.scss */
+body.xpr-main #demo-footer-footnote a:hover {
+  color: var(--xpr-blue);
+}
+/* line 869, ../sass/xpr-main.scss */
+body.xpr-main .nav-carousel .nav-title {
+  background-color: var(--xpr-white);
+}
+/* line 872, ../sass/xpr-main.scss */
+body.xpr-main .nav-carousel .navbar {
+  background-color: var(--xpr-white) !important;
+}
+/* line 880, ../sass/xpr-main.scss */
+body.xpr-main .section-sticky-accordion #integration-list .container .accordion .panel {
+  background-color: var(--xpr-white);
+}
+/* line 890, ../sass/xpr-main.scss */
+body.xpr-main .section-sticky-accordion #category-list.sidebar h3.sidebar-title {
+  color: var(--xpr-deep-space);
+}
+/* line 898, ../sass/xpr-main.scss */
+body.xpr-main .section-sticky-accordion #category-list.sidebar ul li a.link-rect:hover, body.xpr-main .section-sticky-accordion #category-list.sidebar ul li a.link-rect[data-state~=active] {
+  color: #fff;
+  background-color: var(--xpr-blue);
+}
+/* line 910, ../sass/xpr-main.scss */
+body.xpr-main .contact-social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+/* line 916, ../sass/xpr-main.scss */
+body.xpr-main .contact-social-media a {
+  font-size: 2rem;
+  color: var(--xpr-deep-space);
+}
+/* line 924, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page.tilicho-landing-page-v14 .hs_cos_wrapper_type_social_sharing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 928, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page.tilicho-landing-page-v14 .hs_cos_wrapper_type_social_sharing a {
+  width: auto !important;
+  padding: 10px;
+  background-color: none !important;
+  display: flex;
+  align-items: center;
+}
+/* line 937, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page .form-outer-wrap {
+  background: #FFF !important;
+  border: 1px solid var(--xpr-deep-space);
+}
+/* line 942, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page .form-outer-wrap .form-header-wrap .hs_cos_wrapper_type_header h3 {
+  color: var(--xpr-deep-space);
+}
+/* line 949, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page .legal-consent-container p {
+  color: var(--xpr-deep-space);
+}
+/* line 953, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page input, body.xpr-main.tilicho-landing-page #hs_cos_wrapper_module_146355153378931161 input[type="submit"] {
+  border: 1px solid var(--xpr-deep-space);
+  border-radius: 5px;
+}
+/* line 956, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page input.hs-button, body.xpr-main.tilicho-landing-page #hs_cos_wrapper_module_146355153378931161 input[type="submit"].hs-button {
+  background-color: var(--xpr-blue) !important;
+  color: #FFF !important;
+}
+/* line 961, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page label {
+  color: var(--xpr-deep-space) !important;
+}
+/* line 967, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page .content-detail-wrap ul li:before, body.xpr-main.tilicho-landing-page .hero-area-list-wrap ul li:before {
+  content: "";
+  background-image: url(https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/images/internal/icons/svg/xplor_icon_tick_neptune-blue.svg);
+  background-size: cover;
+  color: initial;
+  font-family: initial;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+/* line 983, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page .user-quote-icon:before {
+  content: "";
+  background-image: url(https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/images/internal/icons/icon_xplor_quote.png);
+  background-size: cover;
+  color: initial;
+  font-family: initial;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 995, ../sass/xpr-main.scss */
+body.xpr-main.tilicho-landing-page .user-quote-icon i {
+  display: none;
+}
+/* line 1000, ../sass/xpr-main.scss */
+body.xpr-main .goal_quote, body.xpr-main .goal_quote_2 {
+  background-color: #FFF;
+}
+/* line 1003, ../sass/xpr-main.scss */
+body.xpr-main .bq3 {
+  letter-spacing: normal;
+  line-height: normal;
+}
+/* line 1007, ../sass/xpr-main.scss */
+body.xpr-main .bq3:before {
+  content: "";
+  background-image: url(https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/images/internal/icons/icon_xplor_quote.png);
+  background-size: cover;
+  color: initial;
+  font-family: initial;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 15px 0 0;
+  float: left;
+}
+/* line 1021, ../sass/xpr-main.scss */
+body.xpr-main .bq3 p {
+  letter-spacing: normal;
+  line-height: normal;
+}
+/* line 1027, ../sass/xpr-main.scss */
+body.xpr-main .cta-button-bg {
+  background-color: var(--xpr-deep-space);
+}
+/* line 1030, ../sass/xpr-main.scss */
+body.xpr-main .cta-button-bg .section-cta {
+  background-color: var(--xpr-deep-space) !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* line 1036, ../sass/xpr-main.scss */
+body.xpr-main .cta-button-bg .section-cta .pm_container {
+  max-width: none;
+}
+/* line 1041, ../sass/xpr-main.scss */
+body.xpr-main .cta-button-bg .section-cta p.cta-p {
+  color: #FFF;
+}
+/* line 1049, ../sass/xpr-main.scss */
+body.xpr-main .case_list li {
+  list-style: none !important;
+  font-family: var(--xpr-font) !important;
+}
+/* line 1053, ../sass/xpr-main.scss */
+body.xpr-main .case_list li span:before {
+  content: "";
+  background-image: url(https://484017.fs1.hubspotusercontent-na1.net/hubfs/484017/PM2%20Corporate%20Website/template-resources/images/internal/icons/svg/xplor_icon_tick_neptune-blue.svg);
+  background-size: cover;
+  color: initial;
+  font-family: initial;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+/* line 1070, ../sass/xpr-main.scss */
+body.xpr-main .pm_case_container {
+  padding-top: 100px;
+}
+/* line 1075, ../sass/xpr-main.scss */
+body.xpr-main .feature-container dl dt {
+  color: var(--xpr-deep-space);
+}
+/* line 1083, ../sass/xpr-main.scss */
+body.xpr-main #section-company .contact-social-media a {
+  color: var(--xpr-blue);
+}
+/* line 1095, ../sass/xpr-main.scss */
+body.xpr-main #section-company section#section-contact-form .form-tab .tab-content .form-container form fieldset input::placeholder, body.xpr-main #section-company section#section-contact-form .form-tab .tab-content .form-container form fieldset select::placeholder, body.xpr-main #section-company section#section-contact-form .form-tab .tab-content .form-container form fieldset textarea::placeholder {
+  color: var(--xpr-deep-space) !important;
+}
+/* line 1099, ../sass/xpr-main.scss */
+body.xpr-main #section-company section#section-contact-form .form-tab .tab-content .form-container form fieldset select {
+  color: var(--xpr-deep-space) !important;
+}
+/* line 1102, ../sass/xpr-main.scss */
+body.xpr-main #section-company section#section-contact-form .form-tab .tab-content .form-container form fieldset select option:disabled {
+  color: var(--xpr-deep-space) !important;
+}
+/* line 1111, ../sass/xpr-main.scss */
+body.xpr-main #section-company section#section-contact-form .form-tab .tab-content .form-container form input[type=submit].hs-button {
+  background-color: var(--xpr-blue);
+}
+/* line 1126, ../sass/xpr-main.scss */
+body.xpr-main #section-story.section-hero {
+  padding: 150px 0 100px;
+}
+/* line 1139, ../sass/xpr-main.scss */
+body.xpr-blog.hs-blog-post .container-fluid .row-fluid .subscribe-section form .hs-button.primary {
+  background: var(--xpr-pink);
+  color: var(--xpr-deep-space);
+}
+/* line 1150, ../sass/xpr-main.scss */
+body.xpr-blog.hs-content-id-96858663013 .widget-type-social_sharing {
+  display: none;
+}
+/* line 1154, ../sass/xpr-main.scss */
+body.xpr-blog .post-listing {
+  margin-top: 50px !important;
+}
+/* line 1157, ../sass/xpr-main.scss */
+body.xpr-blog .post-listing-simple {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* line 1164, ../sass/xpr-main.scss */
+body.xpr-blog .container-fluid .row-fluid .post-item {
+  display: inline-block;
+  margin: 10px;
+}
+/* line 1171, ../sass/xpr-main.scss */
+body.xpr-blog p a {
+  color: var(--xpr-blue) !important;
+}
+/* line 1173, ../sass/xpr-main.scss */
+body.xpr-blog p a:hover {
+  color: var(--xpr-blue) !important;
+}
+/* line 1179, ../sass/xpr-main.scss */
+body.xpr-blog a.cta_button, body.xpr-blog a#cta_button_484017_02e2b894-4199-4ca3-9e65-9d7649547052 {
+  border-radius: 5px !important;
+  background-color: var(--xpr-pink) !important;
+  color: var(--xpr-deep-space) !important;
+}
+/* line 1183, ../sass/xpr-main.scss */
+body.xpr-blog a.cta_button:hover, body.xpr-blog a#cta_button_484017_02e2b894-4199-4ca3-9e65-9d7649547052:hover {
+  background-color: var(--xpr-pink) !important;
+  color: var(--xpr-deep-space) !important;
+}
+/* line 1190, ../sass/xpr-main.scss */
+body.xpr-blog .ias-trigger a {
+  border-radius: 5px;
+  border: 1px solid var(--xpr-blue);
+  color: var(--xpr-blue);
+}
+/* line 1195, ../sass/xpr-main.scss */
+body.xpr-blog .ias-trigger a:hover {
+  background-color: var(--xpr-blue);
+  color: #FFF;
+}
+/* line 1202, ../sass/xpr-main.scss */
+body.xpr-blog .post-item h2, body.xpr-blog .post-item a {
+  color: var(--xpr-deep-space);
+}
+/* line 1208, ../sass/xpr-main.scss */
+body.xpr-blog .topic-list li a {
+  background-color: var(--xpr-green);
+  color: var(--xpr-deep-space);
+}
+/* line 1219, ../sass/xpr-main.scss */
+body.xpr-blog.hs-blog-listing .container-fluid .row-fluid .subscribe-section .hs-button.primary {
+  background-color: var(--xpr-pink);
+  color: var(--xpr-deep-space);
+}
+/* line 1230, ../sass/xpr-main.scss */
+body.xpr-blog .container-fluid .row-fluid .subscribe-section {
+  background: var(--xpr-deep-space);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--xpr-deep-space),endColorstr=var(--xpr-deep-space),GradientType=1);
+  padding-top: 50px;
+}
+/* line 1238, ../sass/xpr-main.scss */
+body.xpr-blog .body-container-wrapper {
+  background-color: var(--xpr-white);
+}
+/* line 1244, ../sass/xpr-main.scss */
+body.xpr-blog .blog-listing-hero-section ul.topic-list a {
+  color: var(--xpr-deep-space);
+  background-color: var(--xpr-green);
+  border-radius: 5px;
+  padding: 10px;
+}
+/* line 1256, ../sass/xpr-main.scss */
+body.xpr-blog .blog-listing-hero-section span.blog-listing-item-container h1.blog-post-title a {
+  color: #FFF !important;
+}
+/* line 1264, ../sass/xpr-main.scss */
+body.xpr-blog .blog-listing-hero-section span.blog-listing-item-container h4 a {
+  background-color: var(--xpr-pink);
+  color: var(--xpr-deep-space);
+}
+/* line 1274, ../sass/xpr-main.scss */
+body.xpr-blog .topic-section .widget-module ul {
+  margin: 10px auto 0;
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  right: auto;
+  text-align: center;
+}
+/* line 1285, ../sass/xpr-main.scss */
+body.xpr-blog .topic-section .widget-module ul li a {
+  font-size: 24px;
+}
+/* line 1292, ../sass/xpr-main.scss */
+body.xpr-blog .footer-container-wrapper {
+  background-color: #FFF;
+}
+/* line 1296, ../sass/xpr-main.scss */
+body.xpr-blog .cta-trigger h3 {
+  font-size: 24px;
+  font-weight: 100;
+  color: var(--xpr-deep-space);
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 25px 30px;
+  max-width: 300px;
+  border-radius: 0px;
+  width: 100%;
+  position: relative;
+  background: var(--xpr-white);
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  border: 0;
+}
+/* line 1314, ../sass/xpr-main.scss */
+body.xpr-blog .cta-trigger h3:before {
+  content: "";
+  border: 1px solid var(--xpr-deep-space);
+  width: 260px;
+  position: absolute;
+  bottom: 20px;
+}
+/* line 1322, ../sass/xpr-main.scss */
+body.xpr-blog .cta-trigger h3:after {
+  font-size: 18px;
+}
