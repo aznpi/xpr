@@ -155,7 +155,21 @@ body{
             color: var(--xpr-blue);
 
             &:hover{
-                color: var(--xpr-blue);
+                color: var(--xpr-blue) !important;
+            }
+
+            &.btn{
+                &.btn-pink{
+                    background-color: var(--xpr-pink);
+                    border-color: var(--xpr-pink); 
+                    color:#FFF;
+                    
+                    &:hover{
+                        background-color: var(--xpr-pink);
+                        border-color: var(--xpr-pink); 
+                        color:#FFF;
+                    }
+                }
             }
             
             &.btn-primary-green,.btn-primary{
@@ -179,6 +193,10 @@ body{
                     background-color: var(--xpr-blue) !important;
                     font-family: var(--xpr-font) !important;
                     border-radius: 20px;
+
+                    &:hover{
+                        color:#FFF !important;
+                    }
                 }
             }
         }
@@ -231,6 +249,7 @@ body{
             .col-md-4{
                 &>div{
                     background-color: var(--xpr-white);
+                    overflow:auto;
                     .info-container{
                         background-color: var(--xpr-white);
                     }
@@ -358,8 +377,21 @@ body{
             }
         } 
 
+        #section-email-subscribe{
+            .no-list{
+                a{
+                    color:#FFF;
+                }
+            }
+        }
+
         #home-demo{
             &.section-demo{
+                .no-list{
+                    a{
+                        color:#FFF;
+                    }
+                }
                 input{
                     &[type=submit]{
                         border-top: 1px solid var(--xpr-blue)!important;
@@ -507,7 +539,53 @@ body{
             }
         }
 
+        #top-nav-morph{
+            &.shrink{
+                .cd-morph-dropdown{
+                    background-color:#FFF;
+
+                    .main-nav{
+                        &>ul{
+                            &>li{
+                                a{
+                                    color:var(--xpr-deep-space);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.xpr-transparent{
+            #top-nav-morph{
+                .cd-morph-dropdown{
+                    .main-nav{
+                        &>ul{
+                            &>li{
+                                a{
+                                    color:var(--xpr-deep-space);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         .cd-morph-dropdown{
+            background-color: transparent;
+
+            .main-nav{
+                &>ul{
+                    &>li{
+                        a{
+                            color:#FFF;
+                        }
+                    }
+                }
+            }
+
             nav{
                 .container{
                     &:before,&:after{
@@ -828,7 +906,10 @@ body{
             background-color:var(--xpr-orange);
 
             &.blue-gradient{
-                background: linear-gradient(160deg,var(--xpr-orange),var(--xpr-orange) 31%,#f35430 54%,#fa6240)!important;
+                background: url(https://www.perfectmind.com/hubfs/Xplor-bg-XR.png) no-repeat !important;
+                background-size: cover !important;
+                background-position: center;
+                color: #FFF;
             }
             
             .input{
@@ -852,6 +933,15 @@ body{
                         color: #FFF !important;
                     }
                 }
+            }
+        }
+
+        #solutions-footer{
+            .section-demo{
+                @media (max-width: 575.98px){
+                    background:var(--xpr-deep-space) !important;
+                }
+
             }
         }
 
@@ -1135,10 +1225,16 @@ body{
                 .row-fluid{
                     .subscribe-section{
                         form{
+                            input{
+                                padding-right:initial;
+                            }
                             .hs-button{
                                 &.primary{
                                     background: var(--xpr-pink);
                                     color: var(--xpr-deep-space);
+                                    position:relative;
+                                    border-radius:25px;
+                                    width:100%;
                                 }
                             }
                         }
