@@ -31,6 +31,15 @@
     --xpr-pink:#FF8DF4;
     --xpr-green: #74FBD0;
 }
+
+html{
+    &[lang="en"]{
+        .region-switch{
+            display: none !important;
+        }
+        
+    }
+}
 body{
     &.xpr-main{
         color: var(--xpr-deep-space);
@@ -45,7 +54,30 @@ body{
             } 
         }
 
-        &.xpr-error{
+        &.subscription-template{
+            .main-content{
+                height:500px;
+                padding-top:100px;
+            }
+
+            .content-container{    
+                margin:0 auto;         
+                float:none;
+            }
+        }
+
+        &.xpr-error,&.subscription-template{
+            .cd-morph-dropdown{
+                .main-nav{
+                    &>ul{
+                        &>li{
+                            a{
+                                color: var(--xpr-deep-space);
+                            }
+                        }
+                    }
+                }
+            }
             #home-section{
                 section{
                     &#section-hero{
@@ -66,9 +98,6 @@ body{
                     }
                 }
             }
-        }
-        .region-switch{
-            display: none !important;
         }
         .blue-horizon{
             background-color: var(--xpr-deep-space);
@@ -243,6 +272,10 @@ body{
             background-color: var(--xpr-blue);
             border-color: var(--xpr-blue);
             color:#FFF !important;
+
+            &:hover{
+                color:#FFF !important;
+            }
         }
 
         .topic-container{
@@ -421,6 +454,14 @@ body{
                     .glb-bnr-strp-inr{
                         background-color: var(--xpr-deep-space);
                     }
+
+                    a{
+                        &.cta_button{
+                            &.btn-demo{
+                                max-width:220px;
+                            }
+                        }   
+                    }
                 }
 
                 &#section-features-screenshot{
@@ -489,6 +530,7 @@ body{
             }
 
             .region-switch{
+
                 .region-switch-subtitle{
                     color:var(--xpr-font)
                 }
@@ -527,6 +569,12 @@ body{
                 .navbar-brand{
                     img{
                         filter:none;
+                    }
+                }
+
+                .container{
+                    @media only screen and (max-width: 1099px){
+                        background:var(--xpr-deep-space);
                     }
                 }
             }
@@ -738,14 +786,8 @@ body{
                 }
             }
         }
-        #section-company{
-            section{
-                &#section-contact{
-                    background: var(--xpr-deep-space) !important;
-                }
-            }
-        }
-        #section-resources,#section-hero{
+        
+        #section-hero{
             section{
                 &#section-hero{
                     background: var(--xpr-deep-space) !important;
@@ -905,11 +947,17 @@ body{
         .section-demo{
             background-color:var(--xpr-orange);
 
+
+
             &.blue-gradient{
                 background: url(https://www.perfectmind.com/hubfs/Xplor-bg-XR.png) no-repeat !important;
                 background-size: cover !important;
                 background-position: center;
                 color: #FFF;
+            }
+
+            .hs-submit{
+                margin-top:20px;
             }
             
             .input{
@@ -1181,6 +1229,9 @@ body{
                             .form-container{
                                 form{
                                     fieldset{
+                                        label{
+                                            display: block;
+                                        }
                                         input,select,textarea{
                                             &::placeholder{
                                                 color:var(--xpr-deep-space) !important;
@@ -1290,7 +1341,7 @@ body{
 
                 &:hover{
                     background-color: var(--xpr-blue);
-                    color: #FFF;
+                    color: #FFF !important;
                 }
             }
         }
